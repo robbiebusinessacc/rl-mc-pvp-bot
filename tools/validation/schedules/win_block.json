@@ -1,0 +1,63 @@
+{
+ "meta": {
+  "name": "win_block",
+  "tick_rate": 20,
+  "coverage": "partial",
+  "description": "Hurt-window block: two equal-damage strikes 2 ticks apart, both in reach (victim still inside the knockback slide). Real 1.8: exactly ONE hp drop."
+ },
+ "arena": {
+  "ground_y": 4.0,
+  "spawn": {
+   "A": {
+    "pos": [
+     0.5,
+     4.0,
+     0.5
+    ],
+    "yaw_mc_deg": 0.0
+   },
+   "B": {
+    "pos": [
+     0.5,
+     4.0,
+     2.1
+    ],
+    "yaw_mc_deg": 180.0
+   }
+  }
+ },
+ "bots": [
+  "A",
+  "B"
+ ],
+ "segments": [
+  {
+   "id": "b_observe",
+   "bot": "B",
+   "mechanic": "knockback_observe",
+   "tick_start": 0,
+   "tick_end": 80,
+   "inputs": {}
+  },
+  {
+   "id": "hit1",
+   "bot": "A",
+   "mechanic": "attack",
+   "tick_start": 40,
+   "tick_end": 41,
+   "inputs": {
+    "attack": true
+   }
+  },
+  {
+   "id": "hit2_blocked",
+   "bot": "A",
+   "mechanic": "attack",
+   "tick_start": 42,
+   "tick_end": 43,
+   "inputs": {
+    "attack": true
+   }
+  }
+ ]
+}

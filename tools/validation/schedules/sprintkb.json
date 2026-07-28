@@ -1,0 +1,82 @@
+{
+ "meta": {
+  "name": "sprintkb",
+  "tick_rate": 20,
+  "coverage": "partial",
+  "description": "Single sprint-hit: A sprints in from 2.5 blocks and strikes; B passive. Validates sprint knockback magnitude and the attacker's sprint reset. Equip a diamond sword on A and diamond armor on both before the schedule (see RUNBOOK)."
+ },
+ "arena": {
+  "ground_y": 4.0,
+  "spawn": {
+   "A": {
+    "pos": [
+     0.5,
+     4.0,
+     0.5
+    ],
+    "yaw_mc_deg": 0.0
+   },
+   "B": {
+    "pos": [
+     0.5,
+     4.0,
+     3.0
+    ],
+    "yaw_mc_deg": 180.0
+   }
+  }
+ },
+ "bots": [
+  "A",
+  "B"
+ ],
+ "segments": [
+  {
+   "id": "b_observe",
+   "bot": "B",
+   "mechanic": "knockback_observe",
+   "tick_start": 0,
+   "tick_end": 140,
+   "inputs": {}
+  },
+  {
+   "id": "a_settle",
+   "bot": "A",
+   "mechanic": "hold",
+   "tick_start": 0,
+   "tick_end": 40,
+   "inputs": {}
+  },
+  {
+   "id": "a_sprint_in",
+   "bot": "A",
+   "mechanic": "sprint",
+   "tick_start": 40,
+   "tick_end": 49,
+   "inputs": {
+    "forward": true,
+    "sprint": true
+   }
+  },
+  {
+   "id": "a_strike",
+   "bot": "A",
+   "mechanic": "attack",
+   "tick_start": 49,
+   "tick_end": 53,
+   "inputs": {
+    "forward": true,
+    "sprint": true,
+    "attack": true
+   }
+  },
+  {
+   "id": "a_stop",
+   "bot": "A",
+   "mechanic": "hold",
+   "tick_start": 53,
+   "tick_end": 140,
+   "inputs": {}
+  }
+ ]
+}

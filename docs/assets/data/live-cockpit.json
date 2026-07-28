@@ -1,0 +1,159 @@
+{
+  "id": "live-cockpit",
+  "title": "Live loop cockpit -- one frame per real logged tick",
+  "generator": "tools/figures/anim_live_cockpit.py",
+  "source": "pvpbot-flight.jsonl",
+  "source_rows": 100,
+  "session": "session A",
+  "rendered": "2026-07-27",
+  "stage_badge": "1\u21924",
+  "gif": {
+    "path": "docs/assets/live-cockpit.gif",
+    "width": 1000,
+    "height": 580,
+    "frames": 100,
+    "frame_duration_ms": 50,
+    "fps": 20,
+    "loop": true,
+    "bytes": 593737
+  },
+  "window": {
+    "ticks": 100,
+    "duration_s": 4.951,
+    "dt_median_s": 0.05,
+    "dt_min_s": 0.0451,
+    "dt_max_s": 0.055,
+    "state": [
+      "fighting"
+    ],
+    "grabbed_all": true,
+    "settled_all": true
+  },
+  "latency_ms": {
+    "note": "tick 0 excluded as a cold-start outlier",
+    "tick0": {
+      "capture": 0.08500000089406967,
+      "encode": 29.259000778198242,
+      "policy": 0.8500000238418579,
+      "inject": 0.019999999552965164,
+      "tick": 30.214000701904297
+    },
+    "median": {
+      "capture": 0.093,
+      "encode": 1.917,
+      "policy": 0.493,
+      "inject": 0.021
+    },
+    "p95": {
+      "capture": 0.11,
+      "encode": 2.132,
+      "policy": 0.564,
+      "inject": 0.029
+    },
+    "max": {
+      "capture": 0.172,
+      "encode": 2.813,
+      "policy": 0.717,
+      "inject": 0.032
+    },
+    "tick_median": 2.542,
+    "tick_p95": 2.798,
+    "tick_max": 3.402,
+    "budget_ms": 50.0,
+    "median_pct_of_budget": 5.08,
+    "ticks_over_budget": 0,
+    "encode_share_of_median_tick_pct": 75.4
+  },
+  "perception": {
+    "sightings": 33,
+    "held": 67,
+    "sighting_rate": 0.33,
+    "longest_held_run_ticks": 8,
+    "longest_sighting_run_ticks": 4,
+    "dist_min_m": 4.0,
+    "dist_max_m": 6.788,
+    "in_reach_ticks": 0,
+    "aim_err_yaw_deg_when_seen": {
+      "mean_abs": 7.89,
+      "min": -29.6,
+      "max": 24.09
+    },
+    "aim_err_pitch_deg_when_seen": {
+      "mean_abs": 15.24,
+      "min": 6.9,
+      "max": 24.64
+    },
+    "hurt_flash_max": 0.1461
+  },
+  "commanded_actions": {
+    "note": "final injected action, after humanize / click gate / assists",
+    "forward": {
+      "back": 14,
+      "none": 86,
+      "forward": 0
+    },
+    "strafe": {
+      "left": 54,
+      "none": 12,
+      "right": 34
+    },
+    "jump_ticks": 43,
+    "sprint_ticks": 41,
+    "attack_ticks": 50,
+    "clicks_per_s": 10.1,
+    "camera_yaw_bin_counts_deg_per_tick": {
+      "-30": 23,
+      "-15": 8,
+      "-7": 9,
+      "-3": 8,
+      "-1": 8,
+      "+0": 6,
+      "+1": 10,
+      "+3": 8,
+      "+7": 6,
+      "+15": 6,
+      "+30": 8
+    },
+    "camera_pitch_bin_counts_deg_per_tick": {
+      "-30": 0,
+      "-15": 4,
+      "-7": 8,
+      "-3": 2,
+      "-1": 4,
+      "+0": 5,
+      "+1": 3,
+      "+3": 40,
+      "+7": 23,
+      "+15": 11,
+      "+30": 0
+    },
+    "mean_abs_commanded_yaw_deg_per_tick": 13.11,
+    "mean_abs_commanded_yaw_deg_per_s": 262.2,
+    "total_commanded_yaw_travel_deg": 1311.0
+  },
+  "held_bearing_lag_check": {
+    "model": "rel_pos[i] == rel_pos[i-1] rotated by CAMERA_BINS[action[i-1][5]]",
+    "held_ticks_tested": 66,
+    "best_variant": "prev_action_neg",
+    "residual_m": {
+      "prev_action_neg": {
+        "median": 3.8e-05,
+        "max": 9.2e-05
+      },
+      "prev_action_pos": {
+        "median": 1.227776,
+        "max": 5.916167
+      },
+      "same_action_neg": {
+        "median": 0.168661,
+        "max": 4.206086
+      },
+      "same_action_pos": {
+        "median": 2.631567,
+        "max": 5.916167
+      }
+    }
+  },
+  "obs_reserved_all_zero": true,
+  "enemy_hp_constant": true
+}

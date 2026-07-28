@@ -1,0 +1,61 @@
+{
+  "id": "perception-truth-vs-cnn",
+  "source_frames": "v11_telemetry_true.npz",
+  "corpus_frames": 15843,
+  "heldout_from_index": 13466,
+  "clip": [
+    14110,
+    14160
+  ],
+  "n_frames": 51,
+  "fps": 20,
+  "duration_s": 2.55,
+  "checkpoint": "runs/perception/perception_v12.pt",
+  "cnn_params": 3500204,
+  "cnn_in_channels": 3,
+  "frame_shape_hwc": [
+    96,
+    170,
+    3
+  ],
+  "camera_model": {
+    "cx": 84.5,
+    "cy": 50.0,
+    "focal_px": 42.0,
+    "hfov_deg": 127.4,
+    "vfov_deg": 97.6
+  },
+  "median_abs_yaw_err_deg": 3.84,
+  "median_abs_pitch_err_deg": 5.92,
+  "p90_abs_yaw_err_deg": 10.33,
+  "max_abs_yaw_err_deg": 16.59,
+  "median_box_offset_bodywidths": 0.28,
+  "max_box_offset_bodywidths": 1.1,
+  "range_blocks_truth": [
+    2.07,
+    3.69
+  ],
+  "bbox_height_truth": [
+    0.505,
+    0.866
+  ],
+  "hurt_flash_frames": 32,
+  "slots_with_truth": [
+    "aim_err_yaw",
+    "aim_err_pitch",
+    "bbox_height",
+    "visible",
+    "self_pitch",
+    "hurt_flash"
+  ],
+  "slots_without_truth": [
+    "self_hp",
+    "rel_screen_vx",
+    "rel_screen_vy",
+    "self_speed",
+    "enemy_on_ground",
+    "reserved"
+  ],
+  "gif_bytes": 2214610,
+  "rendered": "2026-07-27"
+}

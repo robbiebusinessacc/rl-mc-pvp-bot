@@ -1,0 +1,17 @@
+{
+  "name": "mc-pvp-bot-duel-recorder",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Two-bot mineflayer ground-truth physics recorder for 1.8.9 duel validation (see ../RUNBOOK.md)",
+  "main": "record_duel.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "record": "node record_duel.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.20.1"
+  }
+}

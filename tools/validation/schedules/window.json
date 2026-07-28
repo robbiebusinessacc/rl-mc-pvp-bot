@@ -1,0 +1,54 @@
+{
+ "meta": {
+  "name": "window",
+  "tick_rate": 20,
+  "coverage": "partial",
+  "description": "Hurt-window mechanics validation (MCP-919 EntityLivingBase.attackEntityFrom): (1) double-strike inside the 10-tick window with equal damage -> second hit fully blocked; (2) normal strike then CRIT strike inside the window -> only the EXCESS (crit-base) damage lands, no knockback re-arm; (3) sprint-hit chain -> attacker velocity *=0.6 and sprint reset visible in the attacker trace. A gets a diamond sword, both get diamond armor (RUNBOOK staging). B passive throughout, standing in reach."
+ },
+ "arena": {
+  "ground_y": 4.0,
+  "spawn": {
+   "A": {"pos": [0.5, 4.0, 0.5], "yaw_mc_deg": 0.0},
+   "B": {"pos": [0.5, 4.0, 2.6], "yaw_mc_deg": 180.0}
+  }
+ },
+ "bots": ["A", "B"],
+ "segments": [
+  {"id": "b_observe", "bot": "B", "mechanic": "knockback_observe",
+   "tick_start": 0, "tick_end": 420, "inputs": {}},
+  {"id": "a_settle", "bot": "A", "mechanic": "hold",
+   "tick_start": 0, "tick_end": 40, "inputs": {}},
+
+  {"id": "dbl_hit_1", "bot": "A", "mechanic": "attack",
+   "tick_start": 40, "tick_end": 41, "inputs": {"attack": true}},
+  {"id": "dbl_hit_2_blocked", "bot": "A", "mechanic": "attack",
+   "tick_start": 46, "tick_end": 47, "inputs": {"attack": true}},
+  {"id": "recover_1", "bot": "A", "mechanic": "approach",
+   "tick_start": 60, "tick_end": 90, "inputs": {"forward": true}},
+
+  {"id": "win_base_hit", "bot": "A", "mechanic": "attack",
+   "tick_start": 100, "tick_end": 101, "inputs": {"attack": true}},
+  {"id": "win_crit_jump", "bot": "A", "mechanic": "jump",
+   "tick_start": 102, "tick_end": 103, "inputs": {"jump": true}},
+  {"id": "win_crit_excess", "bot": "A", "mechanic": "attack",
+   "tick_start": 107, "tick_end": 108, "inputs": {"attack": true}},
+  {"id": "recover_2", "bot": "A", "mechanic": "approach",
+   "tick_start": 130, "tick_end": 160, "inputs": {"forward": true}},
+
+  {"id": "sprint_wind", "bot": "A", "mechanic": "sprint_approach",
+   "tick_start": 200, "tick_end": 214, "inputs": {"forward": true, "sprint": true}},
+  {"id": "sprint_strike", "bot": "A", "mechanic": "attack",
+   "tick_start": 214, "tick_end": 215,
+   "inputs": {"forward": true, "sprint": true, "attack": true}},
+  {"id": "post_strike_coast", "bot": "A", "mechanic": "hold",
+   "tick_start": 215, "tick_end": 245, "inputs": {"forward": true, "sprint": true}},
+
+  {"id": "sprint_wind_2", "bot": "A", "mechanic": "sprint_approach",
+   "tick_start": 300, "tick_end": 314, "inputs": {"forward": true, "sprint": true}},
+  {"id": "sprint_strike_2", "bot": "A", "mechanic": "attack",
+   "tick_start": 314, "tick_end": 315,
+   "inputs": {"forward": true, "sprint": true, "attack": true}},
+  {"id": "post_strike_2", "bot": "A", "mechanic": "hold",
+   "tick_start": 315, "tick_end": 360, "inputs": {"forward": true, "sprint": true}}
+ ]
+}

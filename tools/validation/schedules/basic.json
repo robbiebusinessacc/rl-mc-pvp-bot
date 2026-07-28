@@ -1,0 +1,177 @@
+{
+ "meta": {
+  "name": "basic",
+  "tick_rate": 20,
+  "description": "Deterministic two-bot duel schedule covering walk, sprint, sprint-jump, friction stop, 180 turn while moving, standing jump arc, and an approach+attack+knockback sequence. See schedules/README.md for the field reference and conventions (Minecraft frame, notchian yaw degrees).",
+  "sim_collision": false
+ },
+ "arena": {
+  "ground_y": 4.0,
+  "spawn": {
+   "A": {
+    "pos": [
+     0.5,
+     4.0,
+     0.5
+    ],
+    "yaw_mc_deg": 0.0
+   },
+   "B": {
+    "pos": [
+     0.5,
+     4.0,
+     16.5
+    ],
+    "yaw_mc_deg": 180.0
+   }
+  }
+ },
+ "bots": [
+  "A",
+  "B"
+ ],
+ "segments": [
+  {
+   "id": "walk_out",
+   "bot": "A",
+   "tick_start": 0,
+   "tick_end": 40,
+   "mechanic": "walk",
+   "inputs": {
+    "forward": true
+   }
+  },
+  {
+   "id": "stop_decay",
+   "bot": "A",
+   "tick_start": 40,
+   "tick_end": 70,
+   "mechanic": "stop",
+   "inputs": {}
+  },
+  {
+   "id": "sprint_out",
+   "bot": "A",
+   "tick_start": 70,
+   "tick_end": 110,
+   "mechanic": "sprint",
+   "inputs": {
+    "forward": true,
+    "sprint": true
+   }
+  },
+  {
+   "id": "coast_1",
+   "bot": "A",
+   "tick_start": 110,
+   "tick_end": 140,
+   "mechanic": "coast",
+   "inputs": {}
+  },
+  {
+   "id": "sprint_jump",
+   "bot": "A",
+   "tick_start": 140,
+   "tick_end": 200,
+   "mechanic": "sprint_jump",
+   "inputs": {
+    "forward": true,
+    "sprint": true,
+    "jump": true
+   }
+  },
+  {
+   "id": "coast_2",
+   "bot": "A",
+   "tick_start": 200,
+   "tick_end": 230,
+   "mechanic": "coast",
+   "inputs": {}
+  },
+  {
+   "id": "turn_180",
+   "bot": "A",
+   "tick_start": 230,
+   "tick_end": 236,
+   "mechanic": "turn_180",
+   "inputs": {
+    "forward": true,
+    "yaw_delta_deg": 30.0
+   }
+  },
+  {
+   "id": "walk_back",
+   "bot": "A",
+   "tick_start": 236,
+   "tick_end": 300,
+   "mechanic": "walk",
+   "inputs": {
+    "forward": true
+   }
+  },
+  {
+   "id": "jump_launch",
+   "bot": "A",
+   "tick_start": 300,
+   "tick_end": 303,
+   "mechanic": "jump_arc",
+   "inputs": {
+    "jump": true
+   }
+  },
+  {
+   "id": "jump_air",
+   "bot": "A",
+   "tick_start": 303,
+   "tick_end": 330,
+   "mechanic": "jump_arc",
+   "inputs": {}
+  },
+  {
+   "id": "approach",
+   "bot": "A",
+   "tick_start": 330,
+   "tick_end": 380,
+   "mechanic": "approach",
+   "inputs": {
+    "forward": true
+   }
+  },
+  {
+   "id": "attack_window",
+   "bot": "A",
+   "tick_start": 380,
+   "tick_end": 410,
+   "mechanic": "attack",
+   "inputs": {
+    "attack": true
+   }
+  },
+  {
+   "id": "disengage",
+   "bot": "A",
+   "tick_start": 410,
+   "tick_end": 420,
+   "mechanic": "coast",
+   "inputs": {}
+  },
+  {
+   "id": "b_walk_in",
+   "bot": "B",
+   "tick_start": 0,
+   "tick_end": 20,
+   "mechanic": "walk",
+   "inputs": {
+    "forward": true
+   }
+  },
+  {
+   "id": "b_hold_victim",
+   "bot": "B",
+   "tick_start": 20,
+   "tick_end": 420,
+   "mechanic": "knockback_observe",
+   "inputs": {}
+  }
+ ]
+}

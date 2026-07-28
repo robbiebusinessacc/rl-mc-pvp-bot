@@ -1,0 +1,77 @@
+{
+  "id": "duel-vs-p4hacker",
+  "title": "The same duel, instrumented in four synchronised panels",
+  "stage_badge": "M",
+  "output": "docs/assets/duel-vs-p4hacker.gif",
+  "generator": "tools/figures/anim_duel_vs_p4hacker.py",
+  "rendered": "2026-07-28",
+  "source": {
+    "checkpoint": "runs/fov1/ckpt_32.8B_faithful78.pt",
+    "checkpoint_env_steps": 32799457280,
+    "opponent": "pvpbot.eval.practice.PracticeHacker",
+    "env": "pvpbot.sim.env.DuelVecEnv",
+    "condition": "SimConfig(arena_square=True, arena_radius=7.0) -- the 14x14 walled square, full-information observations",
+    "seed": 8,
+    "env_index": 6
+  },
+  "duel": {
+    "ticks": 179,
+    "seconds": 8.95,
+    "outcome": "policy wins by K.O.",
+    "hits_landed_by_policy": 12,
+    "hits_taken_by_policy": 6,
+    "damage_per_landed_hit": [
+      1.6,
+      1.6,
+      1.6,
+      1.6,
+      1.6,
+      1.6,
+      1.6,
+      1.6,
+      1.6,
+      1.6,
+      2.4,
+      1.6
+    ],
+    "damage_per_taken_hit": [
+      1.6,
+      1.6,
+      1.6,
+      1.6,
+      1.6,
+      2.4
+    ],
+    "crit_hits_landed": 1,
+    "policy_hp_at_ko": 9.6,
+    "centre_gap_min_m": 1.04,
+    "centre_gap_max_m": 5.16,
+    "reach_dist_min_m": 0.64,
+    "reach_dist_max_m": 4.74,
+    "ticks_inside_3m_reach": 36,
+    "reach_metric": "eye -> opponent AABB, pvpbot/sim/env.py:615-623; a swing connects at <= 3.0 m",
+    "policy_attack_head_ticks": 128,
+    "policy_sprint_ticks": 125,
+    "policy_jump_ticks": 21,
+    "policy_airborne_ticks": 52,
+    "yaw_head_bins_used": 10,
+    "opponent_peak_knockback_blocks_per_tick": 0.436
+  },
+  "verification": {
+    "what": "eye-view pinhole projection of the enemy hitbox centre vs the closed form implied by the env's own aim_err_yaw / aim_err_pitch obs channels, every tick",
+    "max_residual_ndc": 2.26e-06,
+    "max_residual_px_in_eye_panel": 0.00035,
+    "ticks_checked": 179
+  },
+  "encoding": {
+    "width": 824,
+    "height": 580,
+    "frames_rendered": 196,
+    "frames_stored_after_pillow_dedup": 180,
+    "fps": 20,
+    "frame_duration_ms": 50,
+    "palette_colors": 64,
+    "disposal": 1,
+    "bytes": 2334021
+  }
+}

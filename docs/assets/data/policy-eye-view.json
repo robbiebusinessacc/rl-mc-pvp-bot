@@ -1,0 +1,32 @@
+{
+  "id": "policy-eye-view",
+  "output": "docs/assets/policy-eye-view.gif",
+  "rendered": "2026-07-28",
+  "checkpoint": "runs/fov1/ckpt_32.8B_faithful78.pt",
+  "checkpoint_meta_step": 32799457280,
+  "opponent": "pvpbot.eval.practice.PracticeHacker(13)",
+  "env": "pvpbot.sim.env.DuelVecEnv, SimConfig(arena_square=True, arena_radius=7.0)",
+  "rollout": {
+    "seed": 8,
+    "env_index": 6,
+    "duel_ticks": 179,
+    "synthetic_post_kill_ticks": 1,
+    "held_frames": 16
+  },
+  "frames": 196,
+  "fps": 20,
+  "ms_per_frame": 50,
+  "seconds": 9.8,
+  "width_px": 840,
+  "height_px": 520,
+  "colors": 48,
+  "size_mb": 1.863,
+  "hits_landed_by_policy": 12,
+  "hits_taken_by_policy": 6,
+  "critical_hits_landed": 1,
+  "policy_hp_at_kill": 9.6,
+  "opponent_hp_start": 20.0,
+  "attack_head_fired_ticks": 128,
+  "gap_min_m": 1.04,
+  "gap_max_m": 5.16
+}

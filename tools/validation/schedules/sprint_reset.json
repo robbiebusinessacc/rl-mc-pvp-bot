@@ -1,0 +1,77 @@
+{
+ "meta": {
+  "name": "sprint_reset",
+  "tick_rate": 20,
+  "coverage": "partial",
+  "description": "Sprint-hit attacker slowdown: A sprints in and strikes while sprinting; source: attacker motionX/Z *= 0.6 and sprint flag drops. Verify in A's velocity trace (stall right after the strike tick)."
+ },
+ "arena": {
+  "ground_y": 4.0,
+  "spawn": {
+   "A": {
+    "pos": [
+     0.5,
+     4.0,
+     0.5
+    ],
+    "yaw_mc_deg": 0.0
+   },
+   "B": {
+    "pos": [
+     0.5,
+     4.0,
+     5.2
+    ],
+    "yaw_mc_deg": 180.0
+   }
+  }
+ },
+ "bots": [
+  "A",
+  "B"
+ ],
+ "segments": [
+  {
+   "id": "b_observe",
+   "bot": "B",
+   "mechanic": "knockback_observe",
+   "tick_start": 0,
+   "tick_end": 100,
+   "inputs": {}
+  },
+  {
+   "id": "windup",
+   "bot": "A",
+   "mechanic": "sprint_approach",
+   "tick_start": 40,
+   "tick_end": 52,
+   "inputs": {
+    "forward": true,
+    "sprint": true
+   }
+  },
+  {
+   "id": "strike",
+   "bot": "A",
+   "mechanic": "attack",
+   "tick_start": 52,
+   "tick_end": 53,
+   "inputs": {
+    "forward": true,
+    "sprint": true,
+    "attack": true
+   }
+  },
+  {
+   "id": "coast",
+   "bot": "A",
+   "mechanic": "hold",
+   "tick_start": 53,
+   "tick_end": 80,
+   "inputs": {
+    "forward": true,
+    "sprint": true
+   }
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "id": "live-pixels-tick",
+ "rendered": "2026-07-27",
+ "source_log_rows": 4000,
+ "settled_ticks": 3375,
+ "settled_seconds_at_20hz": 168.75,
+ "log_wall_span_s": 201.67,
+ "clip": {
+  "settled_index_start": 270,
+  "settled_index_end": 321,
+  "log_tick_start": 326,
+  "log_tick_end": 377,
+  "t_start_s": 18.145976,
+  "t_end_s": 20.696146,
+  "frames": 52,
+  "fps": 20,
+  "duration_s": 2.6
+ },
+ "frame0_tick": {
+  "tick": 326,
+  "t_s": 18.145976,
+  "state": "fighting",
+  "action": [
+   0,
+   1,
+   0,
+   0,
+   1,
+   9,
+   7
+  ],
+  "action_decoded": {
+   "forward": "back",
+   "strafe": "none",
+   "jump": 0,
+   "sprint": 0,
+   "attack": 1,
+   "yaw_deg_per_tick": 15.0,
+   "pitch_deg_per_tick": 3.0
+  },
+  "percep": [
+   0.09544,
+   -0.06127,
+   0.69876,
+   0.99826,
+   0.24169,
+   0.70307,
+   0.39298,
+   -0.00054,
+   -0.00401,
+   0.07025,
+   0.77724,
+   -0.20289
+  ],
+  "percep_units": {
+   "aim_err_yaw_deg": 17.18,
+   "aim_err_pitch_deg": -5.51,
+   "bbox_height": 0.69876,
+   "range_blocks": 2.62,
+   "self_hp": 14.06
+  },
+  "latency_ms": {
+   "capture": 19.737,
+   "encode": 1.842,
+   "policy": 0.479,
+   "inject": 0.106,
+   "tick": 22.164
+  },
+  "latency_stage_sum_ms": 22.164
+ },
+ "clip_stats": {
+  "attack_ticks": 44,
+  "sprint_ticks": 26,
+  "jump_ticks": 0,
+  "back_ticks": 49,
+  "yaw_bin_counts": [
+   0,
+   1,
+   10,
+   12,
+   3,
+   2,
+   4,
+   7,
+   11,
+   2,
+   0
+  ],
+  "pitch_bin_counts": [
+   0,
+   1,
+   5,
+   11,
+   8,
+   4,
+   3,
+   12,
+   6,
+   2,
+   0
+  ],
+  "yaw_bins_used": 9,
+  "pitch_bins_used": 9,
+  "hurt_flash_ticks": 17,
+  "visible_ticks": 52,
+  "bbox_height_min": 0.1804,
+  "bbox_height_max": 0.9752,
+  "range_blocks_min": 1.81,
+  "range_blocks_max": 10.52
+ },
+ "session_b_medians_ms": {
+  "capture": 20.639,
+  "encode": 1.774,
+  "policy": 0.497,
+  "inject": 0.103,
+  "tick": 23.045
+ },
+ "camera_bins_deg_per_tick": [
+  -30.0,
+  -15.0,
+  -7.0,
+  -3.0,
+  -1.0,
+  0.0,
+  1.0,
+  3.0,
+  7.0,
+  15.0,
+  30.0
+ ],
+ "action_heads": [
+  [
+   "forward",
+   3
+  ],
+  [
+   "strafe",
+   3
+  ],
+  [
+   "jump",
+   2
+  ],
+  [
+   "sprint",
+   2
+  ],
+  [
+   "attack",
+   2
+  ],
+  [
+   "yaw",
+   11
+  ],
+  [
+   "pitch",
+   11
+  ]
+ ],
+ "projection": {
+  "cx": 84.5,
+  "cy": 50.0,
+  "focal_px": 42.0,
+  "frame": [
+   170,
+   96
+  ],
+  "upscale": 4
+ },
+ "gif": {
+  "path": "docs/assets/live-pixels-tick.gif",
+  "bytes": 2453498,
+  "mb": 2.34,
+  "size": [
+   1000,
+   534
+  ],
+  "frames": 52,
+  "duration_ms": 50,
+  "colors": 128
+ }
+}

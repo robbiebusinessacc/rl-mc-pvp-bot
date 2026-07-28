@@ -1,0 +1,1686 @@
+{
+ "matches_per_pair": 60,
+ "seed": 0,
+ "contestants": [
+  "T0-Idle",
+  "T1-Aimbot",
+  "T2-Chaser",
+  "T3-Strafer",
+  "T4-Pro",
+  "P1-Easy",
+  "P2-Medium",
+  "P3-Hard",
+  "P4-Hacker",
+  "ckpt 45.3B"
+ ],
+ "ratings": [
+  {
+   "name": "ckpt 45.3B",
+   "elo": 1611.638632611119,
+   "ts_mu": 39.89277880953616,
+   "ts_sigma": 1.15894314160718,
+   "ts_conservative": 36.41594938471462,
+   "wins": 514,
+   "losses": 5,
+   "draws": 21
+  },
+  {
+   "name": "P3-Hard",
+   "elo": 1234.9118307772435,
+   "ts_mu": 31.792460067438853,
+   "ts_sigma": 0.9090048705792398,
+   "ts_conservative": 29.065445455701134,
+   "wins": 300,
+   "losses": 79,
+   "draws": 161
+  },
+  {
+   "name": "P4-Hacker",
+   "elo": 1209.653491337797,
+   "ts_mu": 31.417881765862152,
+   "ts_sigma": 0.9082751985050889,
+   "ts_conservative": 28.693056170346885,
+   "wins": 303,
+   "losses": 75,
+   "draws": 162
+  },
+  {
+   "name": "T2-Chaser",
+   "elo": 1155.72513940561,
+   "ts_mu": 29.99337225528265,
+   "ts_sigma": 0.8875721644491137,
+   "ts_conservative": 27.33065576193531,
+   "wins": 230,
+   "losses": 91,
+   "draws": 219
+  },
+  {
+   "name": "T4-Pro",
+   "elo": 1078.9556252613254,
+   "ts_mu": 28.587435834442577,
+   "ts_sigma": 0.8936397054668104,
+   "ts_conservative": 25.906516718042145,
+   "wins": 230,
+   "losses": 168,
+   "draws": 142
+  },
+  {
+   "name": "T3-Strafer",
+   "elo": 1042.837662957822,
+   "ts_mu": 27.811487487437688,
+   "ts_sigma": 0.8850952400854688,
+   "ts_conservative": 25.15620176718128,
+   "wins": 203,
+   "losses": 167,
+   "draws": 170
+  },
+  {
+   "name": "T1-Aimbot",
+   "elo": 1037.0835527593235,
+   "ts_mu": 27.187295585201547,
+   "ts_sigma": 0.8659825081545114,
+   "ts_conservative": 24.58934806073801,
+   "wins": 161,
+   "losses": 156,
+   "draws": 223
+  },
+  {
+   "name": "P1-Easy",
+   "elo": 672.9525919557411,
+   "ts_mu": 19.461324125670117,
+   "ts_sigma": 1.0179472600743016,
+   "ts_conservative": 16.407482345447214,
+   "wins": 110,
+   "losses": 430,
+   "draws": 0
+  },
+  {
+   "name": "P2-Medium",
+   "elo": 540.7421468207117,
+   "ts_mu": 16.650909188623082,
+   "ts_sigma": 1.0706315135826896,
+   "ts_conservative": 13.439014647875013,
+   "wins": 70,
+   "losses": 470,
+   "draws": 0
+  },
+  {
+   "name": "T0-Idle",
+   "elo": 415.49932611330587,
+   "ts_mu": 14.914646204084054,
+   "ts_sigma": 1.0666618077583614,
+   "ts_conservative": 11.71466078080897,
+   "wins": 0,
+   "losses": 480,
+   "draws": 60
+  }
+ ],
+ "pairs": {
+  "T0-Idle": {
+   "T1-Aimbot": {
+    "wins": 0,
+    "losses": 0,
+    "draws": 60
+   },
+   "T2-Chaser": {
+    "wins": 0,
+    "losses": 60,
+    "draws": 0
+   },
+   "T3-Strafer": {
+    "wins": 0,
+    "losses": 60,
+    "draws": 0
+   },
+   "T4-Pro": {
+    "wins": 0,
+    "losses": 60,
+    "draws": 0
+   },
+   "P1-Easy": {
+    "wins": 0,
+    "losses": 60,
+    "draws": 0
+   },
+   "P2-Medium": {
+    "wins": 0,
+    "losses": 60,
+    "draws": 0
+   },
+   "P3-Hard": {
+    "wins": 0,
+    "losses": 60,
+    "draws": 0
+   },
+   "P4-Hacker": {
+    "wins": 0,
+    "losses": 60,
+    "draws": 0
+   },
+   "ckpt 45.3B": {
+    "wins": 0,
+    "losses": 60,
+    "draws": 0
+   }
+  },
+  "T1-Aimbot": {
+   "T0-Idle": {
+    "wins": 0,
+    "losses": 0,
+    "draws": 60
+   },
+   "T2-Chaser": {
+    "wins": 3,
+    "losses": 3,
+    "draws": 54
+   },
+   "T3-Strafer": {
+    "wins": 34,
+    "losses": 2,
+    "draws": 24
+   },
+   "T4-Pro": {
+    "wins": 2,
+    "losses": 8,
+    "draws": 50
+   },
+   "P1-Easy": {
+    "wins": 60,
+    "losses": 0,
+    "draws": 0
+   },
+   "P2-Medium": {
+    "wins": 60,
+    "losses": 0,
+    "draws": 0
+   },
+   "P3-Hard": {
+    "wins": 1,
+    "losses": 52,
+    "draws": 7
+   },
+   "P4-Hacker": {
+    "wins": 1,
+    "losses": 52,
+    "draws": 7
+   },
+   "ckpt 45.3B": {
+    "wins": 0,
+    "losses": 39,
+    "draws": 21
+   }
+  },
+  "T2-Chaser": {
+   "T0-Idle": {
+    "wins": 60,
+    "losses": 0,
+    "draws": 0
+   },
+   "T1-Aimbot": {
+    "wins": 3,
+    "losses": 3,
+    "draws": 54
+   },
+   "T3-Strafer": {
+    "wins": 10,
+    "losses": 5,
+    "draws": 45
+   },
+   "T4-Pro": {
+    "wins": 26,
+    "losses": 3,
+    "draws": 31
+   },
+   "P1-Easy": {
+    "wins": 60,
+    "losses": 0,
+    "draws": 0
+   },
+   "P2-Medium": {
+    "wins": 60,
+    "losses": 0,
+    "draws": 0
+   },
+   "P3-Hard": {
+    "wins": 7,
+    "losses": 9,
+    "draws": 44
+   },
+   "P4-Hacker": {
+    "wins": 4,
+    "losses": 11,
+    "draws": 45
+   },
+   "ckpt 45.3B": {
+    "wins": 0,
+    "losses": 60,
+    "draws": 0
+   }
+  },
+  "T3-Strafer": {
+   "T0-Idle": {
+    "wins": 60,
+    "losses": 0,
+    "draws": 0
+   },
+   "T1-Aimbot": {
+    "wins": 2,
+    "losses": 34,
+    "draws": 24
+   },
+   "T2-Chaser": {
+    "wins": 5,
+    "losses": 10,
+    "draws": 45
+   },
+   "T4-Pro": {
+    "wins": 5,
+    "losses": 31,
+    "draws": 24
+   },
+   "P1-Easy": {
+    "wins": 60,
+    "losses": 0,
+    "draws": 0
+   },
+   "P2-Medium": {
+    "wins": 60,
+    "losses": 0,
+    "draws": 0
+   },
+   "P3-Hard": {
+    "wins": 4,
+    "losses": 19,
+    "draws": 37
+   },
+   "P4-Hacker": {
+    "wins": 7,
+    "losses": 13,
+    "draws": 40
+   },
+   "ckpt 45.3B": {
+    "wins": 0,
+    "losses": 60,
+    "draws": 0
+   }
+  },
+  "T4-Pro": {
+   "T0-Idle": {
+    "wins": 60,
+    "losses": 0,
+    "draws": 0
+   },
+   "T1-Aimbot": {
+    "wins": 8,
+    "losses": 2,
+    "draws": 50
+   },
+   "T2-Chaser": {
+    "wins": 3,
+    "losses": 26,
+    "draws": 31
+   },
+   "T3-Strafer": {
+    "wins": 31,
+    "losses": 5,
+    "draws": 24
+   },
+   "P1-Easy": {
+    "wins": 60,
+    "losses": 0,
+    "draws": 0
+   },
+   "P2-Medium": {
+    "wins": 60,
+    "losses": 0,
+    "draws": 0
+   },
+   "P3-Hard": {
+    "wins": 4,
+    "losses": 36,
+    "draws": 20
+   },
+   "P4-Hacker": {
+    "wins": 2,
+    "losses": 41,
+    "draws": 17
+   },
+   "ckpt 45.3B": {
+    "wins": 2,
+    "losses": 58,
+    "draws": 0
+   }
+  },
+  "P1-Easy": {
+   "T0-Idle": {
+    "wins": 60,
+    "losses": 0,
+    "draws": 0
+   },
+   "T1-Aimbot": {
+    "wins": 0,
+    "losses": 60,
+    "draws": 0
+   },
+   "T2-Chaser": {
+    "wins": 0,
+    "losses": 60,
+    "draws": 0
+   },
+   "T3-Strafer": {
+    "wins": 0,
+    "losses": 60,
+    "draws": 0
+   },
+   "T4-Pro": {
+    "wins": 0,
+    "losses": 60,
+    "draws": 0
+   },
+   "P2-Medium": {
+    "wins": 50,
+    "losses": 10,
+    "draws": 0
+   },
+   "P3-Hard": {
+    "wins": 0,
+    "losses": 60,
+    "draws": 0
+   },
+   "P4-Hacker": {
+    "wins": 0,
+    "losses": 60,
+    "draws": 0
+   },
+   "ckpt 45.3B": {
+    "wins": 0,
+    "losses": 60,
+    "draws": 0
+   }
+  },
+  "P2-Medium": {
+   "T0-Idle": {
+    "wins": 60,
+    "losses": 0,
+    "draws": 0
+   },
+   "T1-Aimbot": {
+    "wins": 0,
+    "losses": 60,
+    "draws": 0
+   },
+   "T2-Chaser": {
+    "wins": 0,
+    "losses": 60,
+    "draws": 0
+   },
+   "T3-Strafer": {
+    "wins": 0,
+    "losses": 60,
+    "draws": 0
+   },
+   "T4-Pro": {
+    "wins": 0,
+    "losses": 60,
+    "draws": 0
+   },
+   "P1-Easy": {
+    "wins": 10,
+    "losses": 50,
+    "draws": 0
+   },
+   "P3-Hard": {
+    "wins": 0,
+    "losses": 60,
+    "draws": 0
+   },
+   "P4-Hacker": {
+    "wins": 0,
+    "losses": 60,
+    "draws": 0
+   },
+   "ckpt 45.3B": {
+    "wins": 0,
+    "losses": 60,
+    "draws": 0
+   }
+  },
+  "P3-Hard": {
+   "T0-Idle": {
+    "wins": 60,
+    "losses": 0,
+    "draws": 0
+   },
+   "T1-Aimbot": {
+    "wins": 52,
+    "losses": 1,
+    "draws": 7
+   },
+   "T2-Chaser": {
+    "wins": 9,
+    "losses": 7,
+    "draws": 44
+   },
+   "T3-Strafer": {
+    "wins": 19,
+    "losses": 4,
+    "draws": 37
+   },
+   "T4-Pro": {
+    "wins": 36,
+    "losses": 4,
+    "draws": 20
+   },
+   "P1-Easy": {
+    "wins": 60,
+    "losses": 0,
+    "draws": 0
+   },
+   "P2-Medium": {
+    "wins": 60,
+    "losses": 0,
+    "draws": 0
+   },
+   "P4-Hacker": {
+    "wins": 3,
+    "losses": 4,
+    "draws": 53
+   },
+   "ckpt 45.3B": {
+    "wins": 1,
+    "losses": 59,
+    "draws": 0
+   }
+  },
+  "P4-Hacker": {
+   "T0-Idle": {
+    "wins": 60,
+    "losses": 0,
+    "draws": 0
+   },
+   "T1-Aimbot": {
+    "wins": 52,
+    "losses": 1,
+    "draws": 7
+   },
+   "T2-Chaser": {
+    "wins": 11,
+    "losses": 4,
+    "draws": 45
+   },
+   "T3-Strafer": {
+    "wins": 13,
+    "losses": 7,
+    "draws": 40
+   },
+   "T4-Pro": {
+    "wins": 41,
+    "losses": 2,
+    "draws": 17
+   },
+   "P1-Easy": {
+    "wins": 60,
+    "losses": 0,
+    "draws": 0
+   },
+   "P2-Medium": {
+    "wins": 60,
+    "losses": 0,
+    "draws": 0
+   },
+   "P3-Hard": {
+    "wins": 4,
+    "losses": 3,
+    "draws": 53
+   },
+   "ckpt 45.3B": {
+    "wins": 2,
+    "losses": 58,
+    "draws": 0
+   }
+  },
+  "ckpt 45.3B": {
+   "T0-Idle": {
+    "wins": 60,
+    "losses": 0,
+    "draws": 0
+   },
+   "T1-Aimbot": {
+    "wins": 39,
+    "losses": 0,
+    "draws": 21
+   },
+   "T2-Chaser": {
+    "wins": 60,
+    "losses": 0,
+    "draws": 0
+   },
+   "T3-Strafer": {
+    "wins": 60,
+    "losses": 0,
+    "draws": 0
+   },
+   "T4-Pro": {
+    "wins": 58,
+    "losses": 2,
+    "draws": 0
+   },
+   "P1-Easy": {
+    "wins": 60,
+    "losses": 0,
+    "draws": 0
+   },
+   "P2-Medium": {
+    "wins": 60,
+    "losses": 0,
+    "draws": 0
+   },
+   "P3-Hard": {
+    "wins": 59,
+    "losses": 1,
+    "draws": 0
+   },
+   "P4-Hacker": {
+    "wins": 58,
+    "losses": 2,
+    "draws": 0
+   }
+  }
+ },
+ "stats": {
+  "T0-Idle": {
+   "hits_landed": 0.0,
+   "hits_taken": 11.211111111111112,
+   "avg_combo": 0.0,
+   "mean_aim_err_deg": 92.17814029995453,
+   "mean_episode_len": 356.69444444444446
+  },
+  "T1-Aimbot": {
+   "hits_landed": 9.866666666666667,
+   "hits_taken": 7.7518518518518515,
+   "avg_combo": 2.7834904528533033,
+   "mean_aim_err_deg": 1.754547274440393,
+   "mean_episode_len": 391.25925925925924
+  },
+  "T2-Chaser": {
+   "hits_landed": 11.40925925925926,
+   "hits_taken": 9.046296296296298,
+   "avg_combo": 2.6713744188313204,
+   "mean_aim_err_deg": 2.5226829944324045,
+   "mean_episode_len": 179.53518518518518
+  },
+  "T3-Strafer": {
+   "hits_landed": 11.012962962962963,
+   "hits_taken": 8.977777777777776,
+   "avg_combo": 2.778542126708982,
+   "mean_aim_err_deg": 4.8332301259468995,
+   "mean_episode_len": 187.9388888888889
+  },
+  "T4-Pro": {
+   "hits_landed": 11.248148148148148,
+   "hits_taken": 8.057407407407407,
+   "avg_combo": 3.548461596863622,
+   "mean_aim_err_deg": 3.348474529930124,
+   "mean_episode_len": 201.23888888888888
+  },
+  "P1-Easy": {
+   "hits_landed": 4.611111111111111,
+   "hits_taken": 10.731481481481483,
+   "avg_combo": 2.3545970078525746,
+   "mean_aim_err_deg": 29.250299372937906,
+   "mean_episode_len": 213.19814814814816
+  },
+  "P2-Medium": {
+   "hits_landed": 3.6129629629629627,
+   "hits_taken": 11.15925925925926,
+   "avg_combo": 2.2967109271921884,
+   "mean_aim_err_deg": 21.13683080603996,
+   "mean_episode_len": 227.1185185185185
+  },
+  "P3-Hard": {
+   "hits_landed": 11.46111111111111,
+   "hits_taken": 8.264814814814816,
+   "avg_combo": 3.2070403245739647,
+   "mean_aim_err_deg": 3.375192602924392,
+   "mean_episode_len": 173.75555555555556
+  },
+  "P4-Hacker": {
+   "hits_landed": 11.155555555555557,
+   "hits_taken": 8.24074074074074,
+   "avg_combo": 3.05881987669421,
+   "mean_aim_err_deg": 3.379736505678945,
+   "mean_episode_len": 175.94814814814816
+  },
+  "ckpt 45.3B": {
+   "hits_landed": 12.220370370370368,
+   "hits_taken": 3.1574074074074074,
+   "avg_combo": 5.52111658881399,
+   "mean_aim_err_deg": 12.113158483195852,
+   "mean_episode_len": 273.7277777777778
+  }
+ },
+ "matches": [
+  {
+   "a": "T0-Idle",
+   "b": "T1-Aimbot",
+   "num_duels": 60,
+   "wins_a": 0,
+   "wins_b": 0,
+   "draws": 60,
+   "mean_episode_len": 1200.0,
+   "stats_a": {
+    "hits_landed": 0.0,
+    "hits_taken": 0.11666666666666667,
+    "avg_combo": 0.0,
+    "mean_aim_err_deg": 100.75157063802084
+   },
+   "stats_b": {
+    "hits_landed": 0.11666666666666667,
+    "hits_taken": 0.0,
+    "avg_combo": 1.0,
+    "mean_aim_err_deg": 0.4136021972232395
+   }
+  },
+  {
+   "a": "T0-Idle",
+   "b": "T2-Chaser",
+   "num_duels": 60,
+   "wins_a": 0,
+   "wins_b": 60,
+   "draws": 0,
+   "mean_episode_len": 163.06666666666666,
+   "stats_a": {
+    "hits_landed": 0.0,
+    "hits_taken": 13.0,
+    "avg_combo": 0.0,
+    "mean_aim_err_deg": 92.36756703274618
+   },
+   "stats_b": {
+    "hits_landed": 13.0,
+    "hits_taken": 0.0,
+    "avg_combo": 13.0,
+    "mean_aim_err_deg": 2.9276310697575623
+   }
+  },
+  {
+   "a": "T0-Idle",
+   "b": "T3-Strafer",
+   "num_duels": 60,
+   "wins_a": 0,
+   "wins_b": 60,
+   "draws": 0,
+   "mean_episode_len": 163.91666666666666,
+   "stats_a": {
+    "hits_landed": 0.0,
+    "hits_taken": 13.0,
+    "avg_combo": 0.0,
+    "mean_aim_err_deg": 91.87276654827697
+   },
+   "stats_b": {
+    "hits_landed": 13.0,
+    "hits_taken": 0.0,
+    "avg_combo": 13.0,
+    "mean_aim_err_deg": 6.710276544803159
+   }
+  },
+  {
+   "a": "T0-Idle",
+   "b": "T4-Pro",
+   "num_duels": 60,
+   "wins_a": 0,
+   "wins_b": 60,
+   "draws": 0,
+   "mean_episode_len": 205.5,
+   "stats_a": {
+    "hits_landed": 0.0,
+    "hits_taken": 12.816666666666666,
+    "avg_combo": 0.0,
+    "mean_aim_err_deg": 89.39093032676034
+   },
+   "stats_b": {
+    "hits_landed": 12.816666666666666,
+    "hits_taken": 0.0,
+    "avg_combo": 12.816666666666666,
+    "mean_aim_err_deg": 3.9496964682821134
+   }
+  },
+  {
+   "a": "T0-Idle",
+   "b": "P1-Easy",
+   "num_duels": 60,
+   "wins_a": 0,
+   "wins_b": 60,
+   "draws": 0,
+   "mean_episode_len": 338.43333333333334,
+   "stats_a": {
+    "hits_landed": 0.0,
+    "hits_taken": 12.133333333333333,
+    "avg_combo": 0.0,
+    "mean_aim_err_deg": 96.50740270709494
+   },
+   "stats_b": {
+    "hits_landed": 12.133333333333333,
+    "hits_taken": 0.0,
+    "avg_combo": 12.133333333333333,
+    "mean_aim_err_deg": 23.615456165363344
+   }
+  },
+  {
+   "a": "T0-Idle",
+   "b": "P2-Medium",
+   "num_duels": 60,
+   "wins_a": 0,
+   "wins_b": 60,
+   "draws": 0,
+   "mean_episode_len": 536.9833333333333,
+   "stats_a": {
+    "hits_landed": 0.0,
+    "hits_taken": 12.016666666666667,
+    "avg_combo": 0.0,
+    "mean_aim_err_deg": 95.00011633885389
+   },
+   "stats_b": {
+    "hits_landed": 12.016666666666667,
+    "hits_taken": 0.0,
+    "avg_combo": 12.016666666666667,
+    "mean_aim_err_deg": 19.35988942738039
+   }
+  },
+  {
+   "a": "T0-Idle",
+   "b": "P3-Hard",
+   "num_duels": 60,
+   "wins_a": 0,
+   "wins_b": 60,
+   "draws": 0,
+   "mean_episode_len": 137.26666666666668,
+   "stats_a": {
+    "hits_landed": 0.0,
+    "hits_taken": 12.766666666666667,
+    "avg_combo": 0.0,
+    "mean_aim_err_deg": 88.04870006863268
+   },
+   "stats_b": {
+    "hits_landed": 12.766666666666667,
+    "hits_taken": 0.0,
+    "avg_combo": 12.766666666666667,
+    "mean_aim_err_deg": 3.971169648716437
+   }
+  },
+  {
+   "a": "T0-Idle",
+   "b": "P4-Hacker",
+   "num_duels": 60,
+   "wins_a": 0,
+   "wins_b": 60,
+   "draws": 0,
+   "mean_episode_len": 137.58333333333334,
+   "stats_a": {
+    "hits_landed": 0.0,
+    "hits_taken": 12.05,
+    "avg_combo": 0.0,
+    "mean_aim_err_deg": 88.72074626319557
+   },
+   "stats_b": {
+    "hits_landed": 12.05,
+    "hits_taken": 0.0,
+    "avg_combo": 12.05,
+    "mean_aim_err_deg": 3.9645159465843514
+   }
+  },
+  {
+   "a": "T0-Idle",
+   "b": "ckpt 45.3B",
+   "num_duels": 60,
+   "wins_a": 0,
+   "wins_b": 60,
+   "draws": 0,
+   "mean_episode_len": 327.5,
+   "stats_a": {
+    "hits_landed": 0.0,
+    "hits_taken": 13.0,
+    "avg_combo": 0.0,
+    "mean_aim_err_deg": 86.94346277600937
+   },
+   "stats_b": {
+    "hits_landed": 13.0,
+    "hits_taken": 0.0,
+    "avg_combo": 13.0,
+    "mean_aim_err_deg": 10.383752594131778
+   }
+  },
+  {
+   "a": "T1-Aimbot",
+   "b": "T2-Chaser",
+   "num_duels": 60,
+   "wins_a": 3,
+   "wins_b": 3,
+   "draws": 54,
+   "mean_episode_len": 221.08333333333334,
+   "stats_a": {
+    "hits_landed": 12.0,
+    "hits_taken": 11.983333333333333,
+    "avg_combo": 1.005586592178771,
+    "mean_aim_err_deg": 1.539442184598905
+   },
+   "stats_b": {
+    "hits_landed": 11.983333333333333,
+    "hits_taken": 12.0,
+    "avg_combo": 1.0055944055944055,
+    "mean_aim_err_deg": 1.7213251397693288
+   }
+  },
+  {
+   "a": "T1-Aimbot",
+   "b": "T3-Strafer",
+   "num_duels": 60,
+   "wins_a": 34,
+   "wins_b": 2,
+   "draws": 24,
+   "mean_episode_len": 252.1,
+   "stats_a": {
+    "hits_landed": 12.533333333333333,
+    "hits_taken": 11.366666666666667,
+    "avg_combo": 1.1823899371069182,
+    "mean_aim_err_deg": 2.015431604993233
+   },
+   "stats_b": {
+    "hits_landed": 11.366666666666667,
+    "hits_taken": 12.533333333333333,
+    "avg_combo": 1.0029411764705882,
+    "mean_aim_err_deg": 3.9544490656354796
+   }
+  },
+  {
+   "a": "T1-Aimbot",
+   "b": "T4-Pro",
+   "num_duels": 60,
+   "wins_a": 2,
+   "wins_b": 8,
+   "draws": 50,
+   "mean_episode_len": 273.45,
+   "stats_a": {
+    "hits_landed": 11.883333333333333,
+    "hits_taken": 12.1,
+    "avg_combo": 1.004225352112676,
+    "mean_aim_err_deg": 2.54949544347923
+   },
+   "stats_b": {
+    "hits_landed": 12.1,
+    "hits_taken": 11.883333333333333,
+    "avg_combo": 1.011142061281337,
+    "mean_aim_err_deg": 2.9396876102756044
+   }
+  },
+  {
+   "a": "T1-Aimbot",
+   "b": "P1-Easy",
+   "num_duels": 60,
+   "wins_a": 60,
+   "wins_b": 0,
+   "draws": 0,
+   "mean_episode_len": 217.06666666666666,
+   "stats_a": {
+    "hits_landed": 13.0,
+    "hits_taken": 1.0833333333333333,
+    "avg_combo": 6.290322580645161,
+    "mean_aim_err_deg": 2.2423467503251917
+   },
+   "stats_b": {
+    "hits_landed": 1.0833333333333333,
+    "hits_taken": 13.0,
+    "avg_combo": 1.0,
+    "mean_aim_err_deg": 25.621087111129953
+   }
+  },
+  {
+   "a": "T1-Aimbot",
+   "b": "P2-Medium",
+   "num_duels": 60,
+   "wins_a": 60,
+   "wins_b": 0,
+   "draws": 0,
+   "mean_episode_len": 199.1,
+   "stats_a": {
+    "hits_landed": 13.0,
+    "hits_taken": 0.25,
+    "avg_combo": 10.833333333333334,
+    "mean_aim_err_deg": 2.1263684628510444
+   },
+   "stats_b": {
+    "hits_landed": 0.25,
+    "hits_taken": 13.0,
+    "avg_combo": 1.0,
+    "mean_aim_err_deg": 20.25716750042614
+   }
+  },
+  {
+   "a": "T1-Aimbot",
+   "b": "P3-Hard",
+   "num_duels": 60,
+   "wins_a": 1,
+   "wins_b": 52,
+   "draws": 7,
+   "mean_episode_len": 215.2,
+   "stats_a": {
+    "hits_landed": 10.883333333333333,
+    "hits_taken": 11.683333333333334,
+    "avg_combo": 1.0015337423312884,
+    "mean_aim_err_deg": 2.0589027469051966
+   },
+   "stats_b": {
+    "hits_landed": 11.683333333333334,
+    "hits_taken": 10.883333333333333,
+    "avg_combo": 1.2429078014184398,
+    "mean_aim_err_deg": 2.6336292955883613
+   }
+  },
+  {
+   "a": "T1-Aimbot",
+   "b": "P4-Hacker",
+   "num_duels": 60,
+   "wins_a": 1,
+   "wins_b": 52,
+   "draws": 7,
+   "mean_episode_len": 216.98333333333332,
+   "stats_a": {
+    "hits_landed": 10.85,
+    "hits_taken": 11.75,
+    "avg_combo": 1.0015384615384615,
+    "mean_aim_err_deg": 1.7765632340337871
+   },
+   "stats_b": {
+    "hits_landed": 11.75,
+    "hits_taken": 10.85,
+    "avg_combo": 1.279491833030853,
+    "mean_aim_err_deg": 2.637028357804815
+   }
+  },
+  {
+   "a": "T1-Aimbot",
+   "b": "ckpt 45.3B",
+   "num_duels": 60,
+   "wins_a": 0,
+   "wins_b": 39,
+   "draws": 21,
+   "mean_episode_len": 726.35,
+   "stats_a": {
+    "hits_landed": 4.533333333333333,
+    "hits_taken": 9.55,
+    "avg_combo": 1.732484076433121,
+    "mean_aim_err_deg": 1.0687728455537107
+   },
+   "stats_b": {
+    "hits_landed": 9.55,
+    "hits_taken": 4.533333333333333,
+    "avg_combo": 3.6265822784810124,
+    "mean_aim_err_deg": 19.65498668738666
+   }
+  },
+  {
+   "a": "T2-Chaser",
+   "b": "T3-Strafer",
+   "num_duels": 60,
+   "wins_a": 10,
+   "wins_b": 5,
+   "draws": 45,
+   "mean_episode_len": 180.23333333333332,
+   "stats_a": {
+    "hits_landed": 12.083333333333334,
+    "hits_taken": 12.05,
+    "avg_combo": 1.1018237082066868,
+    "mean_aim_err_deg": 2.5258134676035704
+   },
+   "stats_b": {
+    "hits_landed": 12.05,
+    "hits_taken": 12.083333333333334,
+    "avg_combo": 1.0097765363128492,
+    "mean_aim_err_deg": 4.0996760323723604
+   }
+  },
+  {
+   "a": "T2-Chaser",
+   "b": "T4-Pro",
+   "num_duels": 60,
+   "wins_a": 26,
+   "wins_b": 3,
+   "draws": 31,
+   "mean_episode_len": 192.7,
+   "stats_a": {
+    "hits_landed": 11.883333333333333,
+    "hits_taken": 11.566666666666666,
+    "avg_combo": 1.0393586005830904,
+    "mean_aim_err_deg": 2.2279520577428418
+   },
+   "stats_b": {
+    "hits_landed": 11.566666666666666,
+    "hits_taken": 11.883333333333333,
+    "avg_combo": 1.007256894049347,
+    "mean_aim_err_deg": 2.885931860285015
+   }
+  },
+  {
+   "a": "T2-Chaser",
+   "b": "P1-Easy",
+   "num_duels": 60,
+   "wins_a": 60,
+   "wins_b": 0,
+   "draws": 0,
+   "mean_episode_len": 155.76666666666668,
+   "stats_a": {
+    "hits_landed": 12.833333333333334,
+    "hits_taken": 4.85,
+    "avg_combo": 2.271386430678466,
+    "mean_aim_err_deg": 3.2288117726482315
+   },
+   "stats_b": {
+    "hits_landed": 4.85,
+    "hits_taken": 12.833333333333334,
+    "avg_combo": 1.0139372822299653,
+    "mean_aim_err_deg": 30.34065707398767
+   }
+  },
+  {
+   "a": "T2-Chaser",
+   "b": "P2-Medium",
+   "num_duels": 60,
+   "wins_a": 60,
+   "wins_b": 0,
+   "draws": 0,
+   "mean_episode_len": 149.28333333333333,
+   "stats_a": {
+    "hits_landed": 12.833333333333334,
+    "hits_taken": 4.333333333333333,
+    "avg_combo": 2.4758842443729905,
+    "mean_aim_err_deg": 3.6537560621342835
+   },
+   "stats_b": {
+    "hits_landed": 4.333333333333333,
+    "hits_taken": 12.833333333333334,
+    "avg_combo": 1.015625,
+    "mean_aim_err_deg": 21.84689384434683
+   }
+  },
+  {
+   "a": "T2-Chaser",
+   "b": "P3-Hard",
+   "num_duels": 60,
+   "wins_a": 7,
+   "wins_b": 9,
+   "draws": 44,
+   "mean_episode_len": 176.53333333333333,
+   "stats_a": {
+    "hits_landed": 12.033333333333333,
+    "hits_taken": 11.983333333333333,
+    "avg_combo": 1.011204481792717,
+    "mean_aim_err_deg": 2.007574041295245
+   },
+   "stats_b": {
+    "hits_landed": 11.983333333333333,
+    "hits_taken": 12.033333333333333,
+    "avg_combo": 1.1216848673946958,
+    "mean_aim_err_deg": 2.8608455708098464
+   }
+  },
+  {
+   "a": "T2-Chaser",
+   "b": "P4-Hacker",
+   "num_duels": 60,
+   "wins_a": 4,
+   "wins_b": 11,
+   "draws": 45,
+   "mean_episode_len": 179.3,
+   "stats_a": {
+    "hits_landed": 11.966666666666667,
+    "hits_taken": 11.983333333333333,
+    "avg_combo": 1.0126939351198871,
+    "mean_aim_err_deg": 2.3239520845924706
+   },
+   "stats_b": {
+    "hits_landed": 11.983333333333333,
+    "hits_taken": 11.966666666666667,
+    "avg_combo": 1.1287284144427001,
+    "mean_aim_err_deg": 2.679104563194395
+   }
+  },
+  {
+   "a": "T2-Chaser",
+   "b": "ckpt 45.3B",
+   "num_duels": 60,
+   "wins_a": 0,
+   "wins_b": 60,
+   "draws": 0,
+   "mean_episode_len": 197.85,
+   "stats_a": {
+    "hits_landed": 4.066666666666666,
+    "hits_taken": 12.65,
+    "avg_combo": 1.1244239631336406,
+    "mean_aim_err_deg": 2.0873312543481073
+   },
+   "stats_b": {
+    "hits_landed": 12.65,
+    "hits_taken": 4.066666666666666,
+    "avg_combo": 3.3289473684210527,
+    "mean_aim_err_deg": 10.375590980013408
+   }
+  },
+  {
+   "a": "T3-Strafer",
+   "b": "T4-Pro",
+   "num_duels": 60,
+   "wins_a": 5,
+   "wins_b": 31,
+   "draws": 24,
+   "mean_episode_len": 197.38333333333333,
+   "stats_a": {
+    "hits_landed": 10.616666666666667,
+    "hits_taken": 12.4,
+    "avg_combo": 1.0095087163232963,
+    "mean_aim_err_deg": 4.470567914548222
+   },
+   "stats_b": {
+    "hits_landed": 12.4,
+    "hits_taken": 10.616666666666667,
+    "avg_combo": 1.1961414790996785,
+    "mean_aim_err_deg": 3.0096186893715866
+   }
+  },
+  {
+   "a": "T3-Strafer",
+   "b": "P1-Easy",
+   "num_duels": 60,
+   "wins_a": 60,
+   "wins_b": 0,
+   "draws": 0,
+   "mean_episode_len": 159.8,
+   "stats_a": {
+    "hits_landed": 12.75,
+    "hits_taken": 3.8666666666666667,
+    "avg_combo": 2.7818181818181817,
+    "mean_aim_err_deg": 5.875601713729592
+   },
+   "stats_b": {
+    "hits_landed": 3.8666666666666667,
+    "hits_taken": 12.75,
+    "avg_combo": 1.0220264317180616,
+    "mean_aim_err_deg": 33.012889595947065
+   }
+  },
+  {
+   "a": "T3-Strafer",
+   "b": "P2-Medium",
+   "num_duels": 60,
+   "wins_a": 60,
+   "wins_b": 0,
+   "draws": 0,
+   "mean_episode_len": 151.15,
+   "stats_a": {
+    "hits_landed": 12.666666666666666,
+    "hits_taken": 3.283333333333333,
+    "avg_combo": 3.064516129032258,
+    "mean_aim_err_deg": 5.79754057255479
+   },
+   "stats_b": {
+    "hits_landed": 3.283333333333333,
+    "hits_taken": 12.666666666666666,
+    "avg_combo": 1.047872340425532,
+    "mean_aim_err_deg": 22.89461436399434
+   }
+  },
+  {
+   "a": "T3-Strafer",
+   "b": "P3-Hard",
+   "num_duels": 60,
+   "wins_a": 4,
+   "wins_b": 19,
+   "draws": 37,
+   "mean_episode_len": 187.05,
+   "stats_a": {
+    "hits_landed": 11.766666666666667,
+    "hits_taken": 12.116666666666667,
+    "avg_combo": 1.0085714285714287,
+    "mean_aim_err_deg": 4.2020825657797385
+   },
+   "stats_b": {
+    "hits_landed": 12.116666666666667,
+    "hits_taken": 11.766666666666667,
+    "avg_combo": 1.1821138211382114,
+    "mean_aim_err_deg": 2.904006317593798
+   }
+  },
+  {
+   "a": "T3-Strafer",
+   "b": "P4-Hacker",
+   "num_duels": 60,
+   "wins_a": 7,
+   "wins_b": 13,
+   "draws": 40,
+   "mean_episode_len": 189.01666666666668,
+   "stats_a": {
+    "hits_landed": 11.816666666666666,
+    "hits_taken": 11.916666666666666,
+    "avg_combo": 1.0085348506401137,
+    "mean_aim_err_deg": 4.2677691801758355
+   },
+   "stats_b": {
+    "hits_landed": 11.916666666666666,
+    "hits_taken": 11.816666666666666,
+    "avg_combo": 1.1702127659574468,
+    "mean_aim_err_deg": 2.997383509847908
+   }
+  },
+  {
+   "a": "T3-Strafer",
+   "b": "ckpt 45.3B",
+   "num_duels": 60,
+   "wins_a": 0,
+   "wins_b": 60,
+   "draws": 0,
+   "mean_episode_len": 210.8,
+   "stats_a": {
+    "hits_landed": 3.0833333333333335,
+    "hits_taken": 12.6,
+    "avg_combo": 1.121212121212121,
+    "mean_aim_err_deg": 4.121107543922919
+   },
+   "stats_b": {
+    "hits_landed": 12.6,
+    "hits_taken": 3.0833333333333335,
+    "avg_combo": 4.295454545454546,
+    "mean_aim_err_deg": 10.696526664743349
+   }
+  },
+  {
+   "a": "T4-Pro",
+   "b": "P1-Easy",
+   "num_duels": 60,
+   "wins_a": 60,
+   "wins_b": 0,
+   "draws": 0,
+   "mean_episode_len": 177.1,
+   "stats_a": {
+    "hits_landed": 12.716666666666667,
+    "hits_taken": 1.1333333333333333,
+    "avg_combo": 6.0078740157480315,
+    "mean_aim_err_deg": 4.403552022880918
+   },
+   "stats_b": {
+    "hits_landed": 1.1333333333333333,
+    "hits_taken": 12.716666666666667,
+    "avg_combo": 1.0,
+    "mean_aim_err_deg": 32.144879977357114
+   }
+  },
+  {
+   "a": "T4-Pro",
+   "b": "P2-Medium",
+   "num_duels": 60,
+   "wins_a": 60,
+   "wins_b": 0,
+   "draws": 0,
+   "mean_episode_len": 170.81666666666666,
+   "stats_a": {
+    "hits_landed": 12.866666666666667,
+    "hits_taken": 1.0,
+    "avg_combo": 6.71304347826087,
+    "mean_aim_err_deg": 4.1233828732392555
+   },
+   "stats_b": {
+    "hits_landed": 1.0,
+    "hits_taken": 12.866666666666667,
+    "avg_combo": 1.0,
+    "mean_aim_err_deg": 21.044786061039318
+   }
+  },
+  {
+   "a": "T4-Pro",
+   "b": "P3-Hard",
+   "num_duels": 60,
+   "wins_a": 4,
+   "wins_b": 36,
+   "draws": 20,
+   "mean_episode_len": 190.9,
+   "stats_a": {
+    "hits_landed": 11.416666666666666,
+    "hits_taken": 11.75,
+    "avg_combo": 1.0239162929745889,
+    "mean_aim_err_deg": 3.281112859466947
+   },
+   "stats_b": {
+    "hits_landed": 11.75,
+    "hits_taken": 11.416666666666666,
+    "avg_combo": 1.1633663366336633,
+    "mean_aim_err_deg": 3.2051577214093956
+   }
+  },
+  {
+   "a": "T4-Pro",
+   "b": "P4-Hacker",
+   "num_duels": 60,
+   "wins_a": 2,
+   "wins_b": 41,
+   "draws": 17,
+   "mean_episode_len": 192.98333333333332,
+   "stats_a": {
+    "hits_landed": 11.383333333333333,
+    "hits_taken": 11.816666666666666,
+    "avg_combo": 1.0103550295857988,
+    "mean_aim_err_deg": 2.899086288418658
+   },
+   "stats_b": {
+    "hits_landed": 11.816666666666666,
+    "hits_taken": 11.383333333333333,
+    "avg_combo": 1.175787728026534,
+    "mean_aim_err_deg": 3.1484630971977117
+   }
+  },
+  {
+   "a": "T4-Pro",
+   "b": "ckpt 45.3B",
+   "num_duels": 60,
+   "wins_a": 2,
+   "wins_b": 58,
+   "draws": 0,
+   "mean_episode_len": 210.31666666666666,
+   "stats_a": {
+    "hits_landed": 3.966666666666667,
+    "hits_taken": 12.433333333333334,
+    "avg_combo": 1.1497584541062802,
+    "mean_aim_err_deg": 2.6442020971510165
+   },
+   "stats_b": {
+    "hits_landed": 12.433333333333334,
+    "hits_taken": 3.966666666666667,
+    "avg_combo": 3.748743718592965,
+    "mean_aim_err_deg": 10.76856664927696
+   }
+  },
+  {
+   "a": "P1-Easy",
+   "b": "P2-Medium",
+   "num_duels": 60,
+   "wins_a": 50,
+   "wins_b": 10,
+   "draws": 0,
+   "mean_episode_len": 377.3666666666667,
+   "stats_a": {
+    "hits_landed": 11.383333333333333,
+    "hits_taken": 8.016666666666667,
+    "avg_combo": 1.9970760233918128,
+    "mean_aim_err_deg": 27.237939075023796
+   },
+   "stats_b": {
+    "hits_landed": 8.016666666666667,
+    "hits_taken": 11.383333333333333,
+    "avg_combo": 1.48,
+    "mean_aim_err_deg": 19.708733759839546
+   }
+  },
+  {
+   "a": "P1-Easy",
+   "b": "P3-Hard",
+   "num_duels": 60,
+   "wins_a": 0,
+   "wins_b": 60,
+   "draws": 0,
+   "mean_episode_len": 143.23333333333332,
+   "stats_a": {
+    "hits_landed": 2.783333333333333,
+    "hits_taken": 12.816666666666666,
+    "avg_combo": 1.0,
+    "mean_aim_err_deg": 30.969111811436413
+   },
+   "stats_b": {
+    "hits_landed": 12.816666666666666,
+    "hits_taken": 2.783333333333333,
+    "avg_combo": 3.6273584905660377,
+    "mean_aim_err_deg": 4.41091522558993
+   }
+  },
+  {
+   "a": "P1-Easy",
+   "b": "P4-Hacker",
+   "num_duels": 60,
+   "wins_a": 0,
+   "wins_b": 60,
+   "draws": 0,
+   "mean_episode_len": 148.85,
+   "stats_a": {
+    "hits_landed": 2.9,
+    "hits_taken": 11.833333333333334,
+    "avg_combo": 1.0,
+    "mean_aim_err_deg": 32.09258586534686
+   },
+   "stats_b": {
+    "hits_landed": 11.833333333333334,
+    "hits_taken": 2.9,
+    "avg_combo": 3.1838565022421523,
+    "mean_aim_err_deg": 4.487644778126806
+   }
+  },
+  {
+   "a": "P1-Easy",
+   "b": "ckpt 45.3B",
+   "num_duels": 60,
+   "wins_a": 0,
+   "wins_b": 60,
+   "draws": 0,
+   "mean_episode_len": 201.16666666666666,
+   "stats_a": {
+    "hits_landed": 1.3666666666666667,
+    "hits_taken": 12.616666666666667,
+    "avg_combo": 1.025,
+    "mean_aim_err_deg": 28.218087680848946
+   },
+   "stats_b": {
+    "hits_landed": 12.616666666666667,
+    "hits_taken": 1.3666666666666667,
+    "avg_combo": 7.349514563106796,
+    "mean_aim_err_deg": 13.170443899876437
+   }
+  },
+  {
+   "a": "P2-Medium",
+   "b": "P3-Hard",
+   "num_duels": 60,
+   "wins_a": 0,
+   "wins_b": 60,
+   "draws": 0,
+   "mean_episode_len": 133.23333333333332,
+   "stats_a": {
+    "hits_landed": 1.3833333333333333,
+    "hits_taken": 12.916666666666666,
+    "avg_combo": 1.0121951219512195,
+    "mean_aim_err_deg": 22.345659213570734
+   },
+   "stats_b": {
+    "hits_landed": 12.916666666666666,
+    "hits_taken": 1.3833333333333333,
+    "avg_combo": 5.615942028985507,
+    "mean_aim_err_deg": 4.656521592295734
+   }
+  },
+  {
+   "a": "P2-Medium",
+   "b": "P4-Hacker",
+   "num_duels": 60,
+   "wins_a": 0,
+   "wins_b": 60,
+   "draws": 0,
+   "mean_episode_len": 135.35,
+   "stats_a": {
+    "hits_landed": 1.3,
+    "hits_taken": 11.95,
+    "avg_combo": 1.0,
+    "mean_aim_err_deg": 21.873510506474286
+   },
+   "stats_b": {
+    "hits_landed": 11.95,
+    "hits_taken": 1.3,
+    "avg_combo": 5.350746268656716,
+    "mean_aim_err_deg": 4.675700860339981
+   }
+  },
+  {
+   "a": "P2-Medium",
+   "b": "ckpt 45.3B",
+   "num_duels": 60,
+   "wins_a": 0,
+   "wins_b": 60,
+   "draws": 0,
+   "mean_episode_len": 190.78333333333333,
+   "stats_a": {
+    "hits_landed": 0.9333333333333333,
+    "hits_taken": 12.816666666666666,
+    "avg_combo": 1.0980392156862746,
+    "mean_aim_err_deg": 20.900222577288066
+   },
+   "stats_b": {
+    "hits_landed": 12.816666666666666,
+    "hits_taken": 0.9333333333333333,
+    "avg_combo": 8.94186046511628,
+    "mean_aim_err_deg": 12.68490646817467
+   }
+  },
+  {
+   "a": "P3-Hard",
+   "b": "P4-Hacker",
+   "num_duels": 60,
+   "wins_a": 3,
+   "wins_b": 4,
+   "draws": 53,
+   "mean_episode_len": 182.53333333333333,
+   "stats_a": {
+    "hits_landed": 11.883333333333333,
+    "hits_taken": 11.866666666666667,
+    "avg_combo": 1.005641748942172,
+    "mean_aim_err_deg": 2.675950826389934
+   },
+   "stats_b": {
+    "hits_landed": 11.866666666666667,
+    "hits_taken": 11.883333333333333,
+    "avg_combo": 1.0056497175141244,
+    "mean_aim_err_deg": 2.8909609003429257
+   }
+  },
+  {
+   "a": "P3-Hard",
+   "b": "ckpt 45.3B",
+   "num_duels": 60,
+   "wins_a": 1,
+   "wins_b": 59,
+   "draws": 0,
+   "mean_episode_len": 197.85,
+   "stats_a": {
+    "hits_landed": 5.233333333333333,
+    "hits_taken": 12.25,
+    "avg_combo": 1.1376811594202898,
+    "mean_aim_err_deg": 3.058537227926093
+   },
+   "stats_b": {
+    "hits_landed": 12.25,
+    "hits_taken": 5.233333333333333,
+    "avg_combo": 2.625,
+    "mean_aim_err_deg": 10.40503832910509
+   }
+  },
+  {
+   "a": "P4-Hacker",
+   "b": "ckpt 45.3B",
+   "num_duels": 60,
+   "wins_a": 2,
+   "wins_b": 58,
+   "draws": 0,
+   "mean_episode_len": 200.93333333333334,
+   "stats_a": {
+    "hits_landed": 5.233333333333333,
+    "hits_taken": 12.066666666666666,
+    "avg_combo": 1.1849056603773584,
+    "mean_aim_err_deg": 2.936826537671612
+   },
+   "stats_b": {
+    "hits_landed": 12.066666666666666,
+    "hits_taken": 5.233333333333333,
+    "avg_combo": 2.7739463601532566,
+    "mean_aim_err_deg": 10.878614076054312
+   }
+  }
+ ],
+ "elo_json": {
+  "initial": 1000.0,
+  "k": 16.0,
+  "ratings": {
+   "P1-Easy": 672.9525919557411,
+   "P2-Medium": 540.7421468207117,
+   "P3-Hard": 1234.9118307772435,
+   "P4-Hacker": 1209.653491337797,
+   "T0-Idle": 415.49932611330587,
+   "T1-Aimbot": 1037.0835527593235,
+   "T2-Chaser": 1155.72513940561,
+   "T3-Strafer": 1042.837662957822,
+   "T4-Pro": 1078.9556252613254,
+   "ckpt 45.3B": 1611.638632611119
+  },
+  "type": "elo"
+ },
+ "trueskill_json": {
+  "beta": 4.166666666666667,
+  "ratings": {
+   "P1-Easy": [
+    19.461324125670117,
+    1.0179472600743016
+   ],
+   "P2-Medium": [
+    16.650909188623082,
+    1.0706315135826896
+   ],
+   "P3-Hard": [
+    31.792460067438853,
+    0.9090048705792398
+   ],
+   "P4-Hacker": [
+    31.417881765862152,
+    0.9082751985050889
+   ],
+   "T0-Idle": [
+    14.914646204084054,
+    1.0666618077583614
+   ],
+   "T1-Aimbot": [
+    27.187295585201547,
+    0.8659825081545114
+   ],
+   "T2-Chaser": [
+    29.99337225528265,
+    0.8875721644491137
+   ],
+   "T3-Strafer": [
+    27.811487487437688,
+    0.8850952400854688
+   ],
+   "T4-Pro": [
+    28.587435834442577,
+    0.8936397054668104
+   ],
+   "ckpt 45.3B": [
+    39.89277880953616,
+    1.15894314160718
+   ]
+  },
+  "tau": 0.08333333333333334,
+  "type": "trueskill-lite"
+ },
+ "sanity": {
+  "t4_beats_t2": false,
+  "T1-Aimbot_never_loses_to_t0": true,
+  "T2-Chaser_beats_t0": true,
+  "T3-Strafer_beats_t0": true,
+  "T4-Pro_beats_t0": true,
+  "P1-Easy_beats_t0": true,
+  "P2-Medium_beats_t0": true,
+  "P3-Hard_beats_t0": true,
+  "P4-Hacker_beats_t0": true,
+  "ckpt_45.3B_beats_t0": true,
+  "ok": false
+ }
+}

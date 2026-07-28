@@ -1,0 +1,83 @@
+{
+ "meta": {
+  "name": "win_excess",
+  "tick_rate": 20,
+  "coverage": "partial",
+  "description": "Excess-damage rule: normal strike then CRIT strike inside the window -> the crit lands only its excess (8*1.5*0.2 - 8*0.2 = 0.8 hp), no knockback re-arm. Then far later a crit followed by a normal in-window strike -> the weaker hit is fully blocked."
+ },
+ "arena": {
+  "ground_y": 4.0,
+  "spawn": {
+   "A": {
+    "pos": [
+     0.5,
+     4.0,
+     0.5
+    ],
+    "yaw_mc_deg": 0.0
+   },
+   "B": {
+    "pos": [
+     0.5,
+     4.0,
+     1.7
+    ],
+    "yaw_mc_deg": 180.0
+   }
+  }
+ },
+ "bots": [
+  "A",
+  "B"
+ ],
+ "segments": [
+  {
+   "id": "b_observe",
+   "bot": "B",
+   "mechanic": "knockback_observe",
+   "tick_start": 0,
+   "tick_end": 90,
+   "inputs": {}
+  },
+  {
+   "id": "base_hit",
+   "bot": "A",
+   "mechanic": "attack",
+   "tick_start": 40,
+   "tick_end": 41,
+   "inputs": {
+    "attack": true
+   }
+  },
+  {
+   "id": "crit_jump",
+   "bot": "A",
+   "mechanic": "jump",
+   "tick_start": 41,
+   "tick_end": 42,
+   "inputs": {
+    "jump": true
+   }
+  },
+  {
+   "id": "pitch_down",
+   "bot": "A",
+   "mechanic": "camera",
+   "tick_start": 48,
+   "tick_end": 49,
+   "inputs": {
+    "pitch_delta_deg": 25.0
+   }
+  },
+  {
+   "id": "crit_excess",
+   "bot": "A",
+   "mechanic": "attack",
+   "tick_start": 49,
+   "tick_end": 50,
+   "inputs": {
+    "attack": true
+   }
+  }
+ ]
+}

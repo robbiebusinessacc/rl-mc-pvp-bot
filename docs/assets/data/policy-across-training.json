@@ -1,0 +1,76 @@
+{
+ "id": "policy-across-training",
+ "rendered": "2026-07-28",
+ "gif": "docs/assets/policy-across-training.gif",
+ "width": 1100,
+ "height": 580,
+ "frames": 254,
+ "live_frames": 224,
+ "held_frames": 30,
+ "stride_ticks": 1,
+ "frame_duration_ms": 50,
+ "bytes": 1095991,
+ "env": "DuelVecEnv(1, seed=3, config=SimConfig(arena_square=True, arena_radius=7.0))",
+ "opponent": "pvpbot.eval.scripted.Pro (T4)",
+ "torch_seed": 0,
+ "records": "pvpbot.eval.arena.run_match(ckpt, Pro(0), 64, seed=7)",
+ "spawn": {
+  "policy": [
+   4.6117,
+   2.7528
+  ],
+  "policy_yaw_deg": 33.886,
+  "opponent": [
+   0.379,
+   4.5623
+  ],
+  "opponent_yaw_deg": 155.926
+ },
+ "panels": [
+  {
+   "checkpoint": "runs/integration-check/ckpt_latest.pt",
+   "short": "integration-check",
+   "env_steps": 5242880,
+   "label": "5.2M env-steps",
+   "duel_ticks": 224,
+   "result": "loss",
+   "hits_landed": 3,
+   "hits_taken": 13,
+   "median_landed_gap_ticks": 57.0,
+   "record_w": 0,
+   "record_l": 64,
+   "record_d": 0,
+   "mean_aim_err_deg": 43.99
+  },
+  {
+   "checkpoint": "runs/overnight/ckpt_latest.pt",
+   "short": "overnight",
+   "env_steps": 83886080,
+   "label": "83.9M env-steps",
+   "duel_ticks": 201,
+   "result": "loss",
+   "hits_landed": 5,
+   "hits_taken": 13,
+   "median_landed_gap_ticks": 39.0,
+   "record_w": 0,
+   "record_l": 64,
+   "record_d": 0,
+   "mean_aim_err_deg": 27.49
+  },
+  {
+   "checkpoint": "runs/fov1/ckpt_live_34.3B.pt",
+   "short": "fov1 / ckpt_live_34.3B",
+   "env_steps": 34644951040,
+   "label": "34.6B env-steps",
+   "duel_ticks": 224,
+   "result": "win",
+   "hits_landed": 13,
+   "hits_taken": 0,
+   "median_landed_gap_ticks": 17.0,
+   "record_w": 64,
+   "record_l": 0,
+   "record_d": 0,
+   "mean_aim_err_deg": 8.26
+  }
+ ]
+}

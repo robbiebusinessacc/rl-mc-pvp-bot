@@ -1,0 +1,323 @@
+{
+ "meta": {
+  "name": "combat",
+  "tick_rate": 20,
+  "coverage": "partial",
+  "description": "Close-range combat validation: walking-chase strikes (base knockback) then sprint-chase strikes (sprint knockback + attacker sprint reset), victim passive. Equip A with a diamond sword and both bots with diamond armor before the schedule starts (see RUNBOOK)."
+ },
+ "arena": {
+  "ground_y": 4.0,
+  "spawn": {
+   "A": {
+    "pos": [
+     0.5,
+     4.0,
+     0.5
+    ],
+    "yaw_mc_deg": 0.0
+   },
+   "B": {
+    "pos": [
+     0.5,
+     4.0,
+     3.0
+    ],
+    "yaw_mc_deg": 180.0
+   }
+  }
+ },
+ "bots": [
+  "A",
+  "B"
+ ],
+ "segments": [
+  {
+   "id": "b_observe",
+   "bot": "B",
+   "mechanic": "knockback_observe",
+   "tick_start": 0,
+   "tick_end": 300,
+   "inputs": {}
+  },
+  {
+   "id": "a_settle",
+   "bot": "A",
+   "mechanic": "hold",
+   "tick_start": 0,
+   "tick_end": 40,
+   "inputs": {}
+  },
+  {
+   "id": "chase_w0",
+   "bot": "A",
+   "mechanic": "approach",
+   "tick_start": 40,
+   "tick_end": 54,
+   "inputs": {
+    "forward": true
+   }
+  },
+  {
+   "id": "strike_w0",
+   "bot": "A",
+   "mechanic": "attack",
+   "tick_start": 54,
+   "tick_end": 55,
+   "inputs": {
+    "forward": true,
+    "attack": true
+   }
+  },
+  {
+   "id": "chase_w1",
+   "bot": "A",
+   "mechanic": "approach",
+   "tick_start": 55,
+   "tick_end": 69,
+   "inputs": {
+    "forward": true
+   }
+  },
+  {
+   "id": "strike_w1",
+   "bot": "A",
+   "mechanic": "attack",
+   "tick_start": 69,
+   "tick_end": 70,
+   "inputs": {
+    "forward": true,
+    "attack": true
+   }
+  },
+  {
+   "id": "chase_w2",
+   "bot": "A",
+   "mechanic": "approach",
+   "tick_start": 70,
+   "tick_end": 84,
+   "inputs": {
+    "forward": true
+   }
+  },
+  {
+   "id": "strike_w2",
+   "bot": "A",
+   "mechanic": "attack",
+   "tick_start": 84,
+   "tick_end": 85,
+   "inputs": {
+    "forward": true,
+    "attack": true
+   }
+  },
+  {
+   "id": "chase_w3",
+   "bot": "A",
+   "mechanic": "approach",
+   "tick_start": 85,
+   "tick_end": 99,
+   "inputs": {
+    "forward": true
+   }
+  },
+  {
+   "id": "strike_w3",
+   "bot": "A",
+   "mechanic": "attack",
+   "tick_start": 99,
+   "tick_end": 100,
+   "inputs": {
+    "forward": true,
+    "attack": true
+   }
+  },
+  {
+   "id": "chase_w4",
+   "bot": "A",
+   "mechanic": "approach",
+   "tick_start": 100,
+   "tick_end": 114,
+   "inputs": {
+    "forward": true
+   }
+  },
+  {
+   "id": "strike_w4",
+   "bot": "A",
+   "mechanic": "attack",
+   "tick_start": 114,
+   "tick_end": 115,
+   "inputs": {
+    "forward": true,
+    "attack": true
+   }
+  },
+  {
+   "id": "chase_w5",
+   "bot": "A",
+   "mechanic": "approach",
+   "tick_start": 115,
+   "tick_end": 129,
+   "inputs": {
+    "forward": true
+   }
+  },
+  {
+   "id": "strike_w5",
+   "bot": "A",
+   "mechanic": "attack",
+   "tick_start": 129,
+   "tick_end": 130,
+   "inputs": {
+    "forward": true,
+    "attack": true
+   }
+  },
+  {
+   "id": "chase_s0",
+   "bot": "A",
+   "mechanic": "approach",
+   "tick_start": 130,
+   "tick_end": 144,
+   "inputs": {
+    "forward": true,
+    "sprint": true
+   }
+  },
+  {
+   "id": "strike_s0",
+   "bot": "A",
+   "mechanic": "attack",
+   "tick_start": 144,
+   "tick_end": 145,
+   "inputs": {
+    "forward": true,
+    "sprint": true,
+    "attack": true
+   }
+  },
+  {
+   "id": "chase_s1",
+   "bot": "A",
+   "mechanic": "approach",
+   "tick_start": 145,
+   "tick_end": 159,
+   "inputs": {
+    "forward": true,
+    "sprint": true
+   }
+  },
+  {
+   "id": "strike_s1",
+   "bot": "A",
+   "mechanic": "attack",
+   "tick_start": 159,
+   "tick_end": 160,
+   "inputs": {
+    "forward": true,
+    "sprint": true,
+    "attack": true
+   }
+  },
+  {
+   "id": "chase_s2",
+   "bot": "A",
+   "mechanic": "approach",
+   "tick_start": 160,
+   "tick_end": 174,
+   "inputs": {
+    "forward": true,
+    "sprint": true
+   }
+  },
+  {
+   "id": "strike_s2",
+   "bot": "A",
+   "mechanic": "attack",
+   "tick_start": 174,
+   "tick_end": 175,
+   "inputs": {
+    "forward": true,
+    "sprint": true,
+    "attack": true
+   }
+  },
+  {
+   "id": "chase_s3",
+   "bot": "A",
+   "mechanic": "approach",
+   "tick_start": 175,
+   "tick_end": 189,
+   "inputs": {
+    "forward": true,
+    "sprint": true
+   }
+  },
+  {
+   "id": "strike_s3",
+   "bot": "A",
+   "mechanic": "attack",
+   "tick_start": 189,
+   "tick_end": 190,
+   "inputs": {
+    "forward": true,
+    "sprint": true,
+    "attack": true
+   }
+  },
+  {
+   "id": "chase_s4",
+   "bot": "A",
+   "mechanic": "approach",
+   "tick_start": 190,
+   "tick_end": 204,
+   "inputs": {
+    "forward": true,
+    "sprint": true
+   }
+  },
+  {
+   "id": "strike_s4",
+   "bot": "A",
+   "mechanic": "attack",
+   "tick_start": 204,
+   "tick_end": 205,
+   "inputs": {
+    "forward": true,
+    "sprint": true,
+    "attack": true
+   }
+  },
+  {
+   "id": "chase_s5",
+   "bot": "A",
+   "mechanic": "approach",
+   "tick_start": 205,
+   "tick_end": 219,
+   "inputs": {
+    "forward": true,
+    "sprint": true
+   }
+  },
+  {
+   "id": "strike_s5",
+   "bot": "A",
+   "mechanic": "attack",
+   "tick_start": 219,
+   "tick_end": 220,
+   "inputs": {
+    "forward": true,
+    "sprint": true,
+    "attack": true
+   }
+  },
+  {
+   "id": "a_disengage",
+   "bot": "A",
+   "mechanic": "hold",
+   "tick_start": 220,
+   "tick_end": 300,
+   "inputs": {}
+  }
+ ]
+}

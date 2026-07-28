@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Node (the mineflayer ground-truth recorder installs here)
+node_modules/
+
+# Training artifacts and captured datasets: multi-GB, regenerated locally.
+# The figures in docs/assets are the committed record of these runs, and each
+# one has a JSON sidecar in docs/assets/data/ carrying the numbers its caption
+# quotes -- note this is deliberately NOT excluded by the rule above.
+runs/
+checkpoints/
+/data/
+reports/
+pvpbot-flight.jsonl
+
+# Decompiled Minecraft (MCP) working tree -- never redistribute.
+tools/mcp919/

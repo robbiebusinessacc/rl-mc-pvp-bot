@@ -1,0 +1,78 @@
+{
+ "id": "mechanics-microscope",
+ "rendered": "2026-07-27",
+ "source": "pvpbot/sim/env.py (DuelVecEnv(2, seed=0, SimConfig()))",
+ "frames": 55,
+ "fps": 5.0,
+ "duration_ms": 200,
+ "size_bytes": 432078,
+ "dimensions": [
+  1100,
+  600
+ ],
+ "colors": 96,
+ "constants": {
+  "dmg_base": 1.600000023841858,
+  "dmg_crit": 2.4000000953674316,
+  "hurt_ticks": 10,
+  "reach": 3.0,
+  "eye_h": 1.6200000047683716,
+  "half_w": 0.30000001192092896,
+  "box_h": 1.7999999523162842,
+  "kb_h": 0.4000000059604645,
+  "kb_v": 0.4000000059604645,
+  "jump_v": 0.41999998688697815,
+  "gravity": 0.07999999821186066
+ },
+ "act1": {
+  "ticks": 30,
+  "swing_tick": 12,
+  "jump_tick_env1": 7,
+  "attacker_x": -2.2,
+  "target_x": 0.0,
+  "vel_y_after_gravity_env1": [
+   0.0,
+   0.3332,
+   0.2481,
+   0.1648,
+   0.0831,
+   0.003,
+   -0.0754,
+   -0.1523
+  ],
+  "damage": [
+   1.6000003814697266,
+   2.3999996185302734
+  ],
+  "target_hp_after": [
+   18.399999618530273,
+   17.600000381469727
+  ]
+ },
+ "act2": {
+  "ticks": 21,
+  "swing_ticks": [
+   4,
+   10
+  ],
+  "jump_tick_env1": 5,
+  "attacker_x": -1.5,
+  "target_x": 0.0,
+  "first_hit_damage": [
+   1.6000003814697266,
+   1.6000003814697266
+  ],
+  "second_hit_damage": [
+   0.0,
+   0.7999992370605469
+  ],
+  "hurt_after_second": [
+   4,
+   4
+  ],
+  "last_dmg_after_second": [
+   1.600000023841858,
+   2.4000000953674316
+  ]
+ }
+}
